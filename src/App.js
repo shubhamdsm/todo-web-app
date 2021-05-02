@@ -42,7 +42,7 @@ function App() {
         textShadow:"0px 0px 8px rgb(255,255,255)",
         boxShadow:"0px 0px 8px rgb(255,255,255)",
       }}
-       className='bg-green-700 hover:bg-green-500 text-white font-bold py-2 px-4 rounded cursor-pointer' type='button' onClick={handleSubmit}>➕</motion.button>
+       disabled={!input} className='bg-green-700 hover:bg-green-500 text-white font-bold py-2 px-4 rounded cursor-pointer' type='button' onClick={handleSubmit}>➕</motion.button>
      
      </form> 
      <AnimatePresence>
